@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const navbarData = [{\n  routeLink: 'dashboard',\n  icon: 'fal fa-home',\n  label: 'Dashboard'\n}, {\n  routeLink: 'statistics',\n  icon: 'fal fa-chart-bar',\n  label: 'Diagnosis'\n}, {\n  routeLink: 'settings',\n  icon: 'fal fa-cog',\n  label: 'Settings'\n}];","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

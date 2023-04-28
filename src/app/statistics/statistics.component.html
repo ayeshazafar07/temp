@@ -1,0 +1,35 @@
+<h1>Diagnosis</h1>
+<hr>
+<div class="card">
+    <div class="card-head">Please upload CT and PET scans in the respective fields</div>
+    <div class="card-body">
+
+        
+        <label for="ctrl">CT Scans</label>
+        <input type="file" (change)="onFolderSelected($event, 'CT')" webkitdirectory directory required>
+
+        <label for="ctrl">PET Scans</label>
+        <input type="file" (change)="onFolderSelected($event, 'PET')" webkitdirectory directory required>
+
+        <button type="submit" (click)="onUpload()" style="background-color: #04383f; color: aliceblue; margin: 5px; border-radius: 5px; width: 150px; height: 25px; ">Upload</button>
+        
+    </div>
+</div>
+<div class="card">
+    <div class="card-head">Results</div>
+    <div class="card-body">
+        <!--
+        <img [src]="'/api/plot?input_dir=' + input_dir" />
+        -->
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ducimus soluta, quasi aut ipsa non, ullam enim rem repudiandae, vitae provident animi. Inventore rerum, voluptas optio dignissimos blanditiis modi illo!
+    </div>
+</div>
+<div class="card">
+    <div class="card-head">3D visualization</div>
+    <div class="card-body">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ducimus soluta, quasi aut ipsa non, ullam enim rem repudiandae, vitae provident animi. Inventore rerum, voluptas optio dignissimos blanditiis modi illo!
+    </div>
+</div>
+<br><br>
+<hr>
+<br>
